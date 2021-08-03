@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Docker App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>   
+        <input id="ipBox" type="text" placeholder="Enter the IP">    
+        <div id="mainBox">
+            <div id="dockerLogo">
+                <img id="dockerImage" src="resources/docker.png" alt="Docker image" sizes="">
+                <p id="webApp">Docker Web App</p>
+            </div>
+            <hr>
+            <p></p>
+            <span id="localhost">[root@localhost ~]#&nbsp;</span>
+            <button class="runBtn" onclick="runCmd();">Run</button> 
+            <input id="inputBox" placeholder="Run any command..." spellcheck="false" autofocus="true">           
+            <pre><p id="myoutput">#Output Here</p></pre>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
